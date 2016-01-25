@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>camera</title>
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+    <script src="index.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        height: 100%;
+        background-color: #CCCCCC;
+      }
+      .camera {
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+      }
+      .shutter {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FF4081;
+        box-shadow: 1px 1px 4px #555555;
+      }
+      .shutter-image {
+        width: 24px;
+        height: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <video class="camera" autoplay ></video>
+    <div class="shutter">
+      <img class="shutter-image" src="./camera.png">
+    </div>
+  </body>
+</html>
