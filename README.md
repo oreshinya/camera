@@ -1,3 +1,3 @@
 # Camera
 WebRTC camera
-https://oreshinya.github.io/camera/
+https://oreshinya.xyz/camera/
